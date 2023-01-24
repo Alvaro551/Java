@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="Echo" method="POST" enctype="multipart/form-data">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <br>
+        <input type="password" name="clave" placeholder="Contraseña">
+        <br>
+        <input type="radio" name="sexo" value="Hombre">
+        <label for="genero">Hombre</label>
+        <input type="radio" name="sexo" value="Mujer">
+        <label for="genero">Mujer</label>
+        <br>
+        <input type="date" name="fecha">
+        <br>
+        <select name="select1" multiple>
+        	<option value="España">España</option>
+        	<option value="Argentina">Argentina</option>
+        	<option value="Francia">Francia</option>   	        	
+        </select>
+        <br>
+        <textarea name="comentario" rows="6" cols="20" placeholder="Comentarios"></textarea>
+        <br>
+        <input type="checkbox" name="acepto"> 
+        <label for="acepto">Acepto las condiciones</label>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
